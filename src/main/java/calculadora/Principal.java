@@ -12,7 +12,7 @@ public class Principal {
             switch (Integer.parseInt(opcao)) {
                 case 1:
                     calculadora.setValorA(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor A")));
-                    calculadora.setValorA(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor B")));
+                    calculadora.setValorB(Double.parseDouble(JOptionPane.showInputDialog("Digite o valor B")));
                     break;
                 case 2:
                     JOptionPane.showMessageDialog(null, "Soma " + calculadora.getAdicao());
